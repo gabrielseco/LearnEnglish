@@ -31,8 +31,8 @@ app.use(cookieParser());
 var publicPath = path.join(__dirname, 'public');
 app.use(express.static(publicPath));
 if (app.get('env') === 'production') {
-  app.get(cachebuster.path, cachebuster.remove, express.static(publicPath), cachebuster.restore);
 }
+app.get(cachebuster.path, cachebuster.remove, express.static(publicPath), cachebuster.restore);
 
 /*if (app.get('env') === 'development') {
   // run livereload and webpack dev server
