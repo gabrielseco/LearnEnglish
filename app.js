@@ -34,14 +34,14 @@ if (app.get('env') === 'production') {
   app.get(cachebuster.path, cachebuster.remove, express.static(publicPath), cachebuster.restore);
 }
 
-if (app.get('env') === 'development') {
+/*if (app.get('env') === 'development') {
   // run livereload and webpack dev server
   require('./dev-tools');
   // use webpack dev server for serving js files
   app.use('/js', function (req, res) {
     res.redirect('http://localhost:3001/js' + req.path);
   });
-}
+}*/
 
 // use react routes
 app.use('/', serverRender);
