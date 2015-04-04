@@ -1,6 +1,6 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@font-face{font-family:Cardo;font-style:normal;font-weight:400;src:local('Cardo'),local('Cardo-Regular'),url(http://fonts.gstatic.com/s/cardo/v8/vjI-nu0OQ4awNWMtISxB9w.ttf) format('truetype')}
-@font-face{font-family:Cardo;font-style:italic;font-weight:400;src:local('Cardo Italic'),local('Cardo-Italic'),url(http://fonts.gstatic.com/s/cardo/v8/GRTkKQvSwrQKMUJtWZsm7w.ttf) format('truetype')}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;src:local('Cardo'),local('Cardo-Regular'),url(https://fonts.gstatic.com/s/cardo/v8/vjI-nu0OQ4awNWMtISxB9w.ttf) format('truetype')}
+@font-face{font-family:Cardo;font-style:italic;font-weight:400;src:local('Cardo Italic'),local('Cardo-Italic'),url(https://fonts.gstatic.com/s/cardo/v8/GRTkKQvSwrQKMUJtWZsm7w.ttf) format('truetype')}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
